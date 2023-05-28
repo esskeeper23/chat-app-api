@@ -9,6 +9,10 @@ const {port} = require('./config')
 //* Routes
 
 
+
+const initModels = require('./models/initModels')
+
+
 //? Initial configs
 const app = express()
 
